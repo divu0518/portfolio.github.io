@@ -22,12 +22,7 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-    var typed = new Typed(".typing", {
-        strings: ["Student"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
+
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
